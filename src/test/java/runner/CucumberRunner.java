@@ -11,7 +11,7 @@ import io.cucumber.junit.CucumberOptions;
 		features = "./src/test/resources/Features/LoginTest.feature"
 		,glue={"steps"}
 		,plugin = {"pretty","summary","html:target/cucumber/report.html"}
-		,monochrome = false
+		,monochrome = true
 		,dryRun = false
 	//	, tags =  
 		)
